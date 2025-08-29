@@ -1,0 +1,59 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(to bottom, #0F0F3F, #3F37C9) no-repeat fixed;
+    padding: 20px;
+}
+
+main #home img {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-top: 3.75em;
+    margin-bottom: 2.8em;
+    width: 150px;
+    border-radius: 50%;
+}
+
+main #home h1 {
+    text-align: center;
+    font-size: 1.75em;
+    color: #0077FF;
+    margin-bottom: 20px;
+}
+
+main #home p {
+    text-align: center;
+    color: #E0E0FF;
+    font-size: 1.25em;
+    margin-bottom: 40px;
+    padding-right: 36px;
+    padding-left: 36px;
+}
+
+main section div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+main section div button {
+    width: 250px;
+    height: 50px;
+    border-radius: 40px;
+    border: 2px solid #4CC9F0;
+    background-color: #4CC9F0;
+    cursor: pointer;
+}
+
+main section div button .info {
+    color: transparent;
+}
