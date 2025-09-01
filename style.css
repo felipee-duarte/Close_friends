@@ -24,7 +24,11 @@ main #home img {
 main #home h1 {
     text-align: center;
     font-size: 1.75em;
-    color: #0077FF;
+    background: linear-gradient(to right, #0077FF, #E0E0FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
     margin-bottom: 20px;
 }
 
@@ -49,11 +53,40 @@ main section div button {
     width: 250px;
     height: 50px;
     border-radius: 40px;
-    border: 2px solid #4CC9F0;
-    background-color: #4CC9F0;
+    border: 2px solid #4CC9F0;    
     cursor: pointer;
 }
 
-main section div button .info {
-    color: transparent;
+main section div .assinar {
+    background: #4CC9F0; 
+}
+
+main section div .assinar a {
+    color: #0077FF;
+    font-weight: bold;
+    font-size: 1.25em;
+    text-decoration: none;
+}
+
+main section div .assinar i {
+    color: #0077FF;
+    margin-left: 5px;
+    font-size: 1.5em;
+}
+
+main section div .info {
+    background: transparent;
+}
+
+main section div .info a {
+    color: #E0E0FF;
+    font-weight: bold;
+    font-size: 1.25em;
+    text-decoration: none;
+}
+
+main section div .info i {
+    color: #E0E0FF;
+    margin-left: 5px;
+    font-size: 1.5em;
 }
